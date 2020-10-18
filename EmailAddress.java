@@ -22,5 +22,5 @@ public class EmailAddress {
 		System.out.println("Email: " + lastName.toLowerCase() + firstInitial.toUpperCase() + middleInitial.toUpperCase() + "@sharkmail.com" + "\nTemp Password: " + birthday.substring(0,2) + birthday.substring(3,5) + birthday.substring(6)); //uses string methods to keep a consistent output no matter what was input. uses an escape character to keep two lines in one, for no other reason than to try it out
 		System.out.println("*** Notice: This password is very insecure. Please change it immediately! ***");
 	}
-
 }
+//Excellent. I would add white space to separate my code (user input sep. from output). Great syntax though.
